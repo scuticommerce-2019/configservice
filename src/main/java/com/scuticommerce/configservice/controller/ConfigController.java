@@ -37,7 +37,7 @@ public class ConfigController {
             .getStringProperty("scuticommerce.customerservice.url", "http://localhost:");
 
     private DynamicStringProperty customerservicePort = DynamicPropertyFactory.getInstance()
-            .getStringProperty("scuticommerce.productservice.port", "8080");
+            .getStringProperty("scuticommerce.customerservice.port", "8080");
 
     private DynamicStringProperty cartserviceUrl = DynamicPropertyFactory.getInstance()
             .getStringProperty("scuticommerce.cartservice.url", "http://localhost:");
